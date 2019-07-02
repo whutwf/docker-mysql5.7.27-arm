@@ -5,7 +5,7 @@ RUN groupadd -r mysql && useradd -r -g mysql -s /sbin/nologin -M mysql && \
     yum -y update && \
     yum -y install gcc gcc-c++ libtool cmake ncurses-devel bison libaio-devel libncurses-devel libopenssl-devel zlib-devel autoconf perl per-devel
 
-ENV MYSQL_VERSION=5.7.22-arm64 \
+ENV MYSQL_VERSION=5.7.22-aarch64 \
     MYSQL_WORKDIR=/usr/local \
     TZ=Asia/Shanghai 
 
